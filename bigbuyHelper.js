@@ -19,9 +19,6 @@ async function fetchProducts() {
     });
 
     // Return the products data
-    let adfadf = response.headers;
-    console.log("################################# console.log(adfadf);");
-    console.log(adfadf);
     return response.data;
   } catch (error) {
     console.error('Error fetching products:', error.response ? error.response.data : error.message);
